@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: #ffffff;
+    width:100%;
+    height:70px;
+    z-index:1;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 80px;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 492px;
+    gap:64px;
+}
+
+.logo{
+    width:158px;
+    height:auto;
+}
+
+.courses{
+    width:97px;
+    height:24px;
+    border:none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.programs{
+  width:109px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 364px;   
+}
+
+.fa-magnifying-glass{
+    margin-top: 7px;
+    font-size: 22px;
+}
+
+.login{
+    font-size:18px;
+    font-weight: 500;
+}
+
+.join-btn{
+    width:166px;
+    height:40px;
+    padding:10px 42px;
+    background: linear-gradient(to left, #0048FF, #0096FF);
+    border-radius: 52px;
+    border: none;
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.background{
+    position: relative;
+    top:70px;
+    width: 100%;
+    height: 1008px;
+    background-image:url('images/BackGround.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color: #172746;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-lockup{
+    width: 40%;
+    height: 700px;
+    margin-top: 72px;
+    margin-left:144px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.content-header{
+  color:#ffffff;
+  font-size:38px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.rupee-icon{
+    font-family: 'Roboto', sans-serif;
+}
+
+.rupees{
+    color: #0096FF;
+    font-weight: 500;
+}
+.strike{
+    position: relative;
+}
+  
+.strike::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color:#FF0000;
+}
+
+.pointer1{
+    display:flex;
+    justify-content:start;
+    gap:35px;
+}
+
+.pointer-text{
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.icon{
+    width:58px;
+}
+
+.content-right{
+    background: #ffffff;
+    width:30%;
+    margin-top: 72px;
+    margin-right:70px;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 28px 24px;
+    margin-bottom: 26px;
+}
+
+.progress-bar{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+}
+
+.signup{
+  background: #0096FF;
+  color: #ffffff;
+  width: 38px;
+  height: 38px;
+  border-radius:50%;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stage{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: center
+}
+
+.form-header{
+    font-size:23px;
+    text-align: center;
+    font-weight:500;
+}
+
+.plan1{
+    border: 3px solid #BEBEBE;
+    border-radius: 4px;
+    background: #E7E7E7;
+}
+
+.plan-content{
+    display: flex;
+    gap:20px;
+    padding:0px 20px;
+    margin-bottom:10px;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.offer-expired{
+    position:relative;
+    left:50px;
+    background: #F77171;
+    color:#ffffff;
+    width: 121px;
+    height:16px;
+    font-size: small;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 2px;
+}
+
+.radio{
+    width: 30px;
+    height: 30px;
+    font-size:30px;
+    accent-color:#BEBEBE;
+
+}
+
+.text-container{
+    display:flex;
+    gap:55px;
+    color: #b4b1b1;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.currency{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+.recommeded{
+    background-color: #47BA68;
+}
+
+.plan2{
+    background: transparent;
+}
+
+.plan3{
+    background: transparent;
+    height: 65px;
+}
+
+.text-container2{
+    color: #3C4852;   
+    gap:55px; 
+}
+
+.bottom-text{
+    font-size: 12px;
+}
+
+.currency2{
+    font-size: 15px;
+}
+
+.plan-content2{
+    margin-top: 10px;
+}
+
+.horizontal-line{
+    border-top: 2px solid #BEBEBE;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 180px;
+    padding: 10px 0px;
+    gap:20px;
+}
+
+.checkbox{
+  border:3px solid #BEBEBE;
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+}
+
+.subscription{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.fee-text,.fee{
+    font-size: 18px;
+    font-weight: 18px;
+}
+.fee{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.alert{
+    height:80px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #DE4313 , #FEC163)1;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #fbd4c8,#f4edeb);
+    padding:5px 20px ;
+    font-size: 18px;
+    color: #DE4313;
+    font-weight: 500;
+}
+
+.alert-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert-body{
+   font-size: 14px;
+}
+
+.discount{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}
+
+.total-amount{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px ;
+}
+
+.gst{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.total{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn{
+  border: 3px solid #F77171;
+  width:220px;
+  height:56px;
+  background: #ffffff;
+  color:#F77171;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.pay-btn{
+   background: #47BA68;
+   color: #ffffff;
+   border: none;
+}
+
+.clock{
+    width:25px;
+    height: 25px;
+    position: relative;
+    top:6px;
+}
+
+.border{
+    border: 3px solid #47BA68;
+    background:#D7EDDD ; 
+}
+.fa-circle-check{
+  color:#47BA68;
+  font-size: 25px;
+}
+
+.font-weight{
+    font-weight: 400;
+}
+
+.rozarpay{
+    width:120px;
+}
